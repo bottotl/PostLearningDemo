@@ -1,0 +1,16 @@
+PODS:
+  - YYKit (0.9.4):
+    - YYKit/no-arc (= 0.9.4)
+  - YYKit/no-arc (0.9.4)
+
+DEPENDENCIES:
+  - YYKit (from `./PostLearningDemo/Vender/YYKit/YYKit.podspec`)
+
+EXTERNAL SOURCES:
+  YYKit:
+    :path: "./PostLearningDemo/Vender/YYKit/YYKit.podspec"
+
+SPEC CHECKSUMS:
+  YYKit: 6d41531048acfe3921ec08337bb71e1a7d9343d9
+
+COCOAPODS: 0.39.0
