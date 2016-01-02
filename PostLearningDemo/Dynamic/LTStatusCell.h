@@ -20,7 +20,6 @@
 
 @protocol LTStatusCellDelegate;
 /**
- *  @author Lintao Yu, 15-12-14 10:12:27
  *
  *  这只是一个用来包含 LTStatusView 的一个容器，以便展示
  */

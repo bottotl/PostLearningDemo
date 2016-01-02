@@ -221,8 +221,15 @@
         [self _hideImageViews];
     }
     
-    
-    //优先级是 转发->图片->卡片
+    /**
+     *  优先级是 转发->图片->卡片
+     *   ->如果有转发内容（高度 >0)-> 需要转发背景
+        |   -> 如果有转发图片（高度 >0） -> 设置图片
+        |
+        |
+        |
+         -> 如果没有转发内容 ->
+     */
     if (layout.retweetHeight > 0) {
         _retweetBackgroundView.top = top;
         _retweetBackgroundView.height = layout.retweetHeight;

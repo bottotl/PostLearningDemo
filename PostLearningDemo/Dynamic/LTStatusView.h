@@ -18,8 +18,6 @@
 
 
 /**
- *  @author Lintao Yu, 15-12-14 10:12:39
- *
  *  包含了所有动态需要展示的内容
  */
 @interface LTStatusView : UIView

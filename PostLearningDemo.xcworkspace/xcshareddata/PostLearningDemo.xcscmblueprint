@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D338B0996FF70878919641C2058CCB2163021CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1348A3F3A9255948743B6F3B2B6D2B1CE3E2D839" : 0,
+    "2D338B0996FF70878919641C2058CCB2163021CA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "86F6C87E-E7EF-4691-B955-9D293F2DB253",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1348A3F3A9255948743B6F3B2B6D2B1CE3E2D839" : "PostLearningDemo\/PostLearningDemo\/Vender\/YYKit\/",
+    "2D338B0996FF70878919641C2058CCB2163021CA" : "PostLearningDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PostLearningDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PostLearningDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ibireme\/YYKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1348A3F3A9255948743B6F3B2B6D2B1CE3E2D839"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bottotl\/PostLearningDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D338B0996FF70878919641C2058CCB2163021CA"
+    }
+  ]
+}

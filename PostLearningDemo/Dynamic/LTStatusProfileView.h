@@ -11,8 +11,6 @@
 #import "WBStatusLayout.h"
 @class LTStatusCell;
 /**
- *  @author Lintao Yu, 15-12-11 19:12:46
- *
  *  用户资料
  */
 @interface LTStatusProfileView : UIView

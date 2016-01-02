@@ -200,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				B8D4A3161C34EB620067D079 /* ApiDump */,
-				B8D4A31F1C34EB620067D079 /* Cell */,
 				B8D4A3201C34EB620067D079 /* Compose */,
 				B8D4A32A1C34EB620067D079 /* Helper */,
 				B8D4A32D1C34EB620067D079 /* LTStatusCardView.h */,
@@ -241,13 +240,6 @@
 				B8D4A31E1C34EB620067D079 /* weibo_7.json */,
 			);
 			path = ApiDump;
-			sourceTree = "<group>";
-		};
-		B8D4A31F1C34EB620067D079 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 		B8D4A3201C34EB620067D079 /* Compose */ = {
