@@ -21,10 +21,10 @@
             </objects>
             <point key="canvasLocation" x="63" y="413"/>
         </scene>
-        <!--Status Timeline View Controller-->
+        <!--Post List View Controller-->
         <scene sceneID="a5v-iw-cJq">
             <objects>
-                <viewController id="dSN-9M-GAH" customClass="LTStatusTimelineViewController" sceneMemberID="viewController">
+                <viewController id="dSN-9M-GAH" customClass="LTPostListViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t3v-EK-aMt"/>
                         <viewControllerLayoutGuide type="bottom" id="qcp-rd-Qhm"/>
