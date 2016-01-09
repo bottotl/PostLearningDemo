@@ -35,13 +35,13 @@ static CGFloat const LTPostProfileViewHeight = 60.0;
 -(void)layoutSubviews{
     
     self.avatarView.size = CGSizeMake(45, 45);
-    self.avatarView.layer.cornerRadius = _avatarView.height/2;
+    self.avatarView.layer.cornerRadius = self.avatarView.height/2;
     self.avatarView.backgroundColor = [UIColor redColor];
     self.avatarView.left = 10;
     self.avatarView.centerY = self.height/2;
 
-    _nameLabel.left = self.avatarView.right + 5;
-    _nameLabel.centerY = self.avatarView.centerY;
+    self.nameLabel.left = self.avatarView.right + 5;
+    self.nameLabel.centerY = self.avatarView.centerY;
     [super layoutSubviews];
 }
 
@@ -80,7 +80,7 @@ static CGFloat const LTPostProfileViewHeight = 60.0;
 
 -(void)setAvatatUrlString:(NSString *)avatatUrlString{
     _avatatUrlString = avatatUrlString;
-    [_avatarView sd_setImageWithURL:[NSURL URLWithString:avatatUrlString]];
+    [self.avatarView sd_setImageWithURL:[NSURL URLWithString:avatatUrlString]];
 }
 
 -(void)setName:(NSString *)name{

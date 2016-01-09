@@ -34,6 +34,7 @@ static CGFloat const LTPostContentRightPadding = 3;
     self.profileView.left = 0;
     
     self.contentView.width = self.width - LTPostContentLeftPadding - LTPostContentRightPadding;
+    [self.contentView sizeToFit];
     self.contentView.top= self.profileView.bottom;
     self.contentView.left = LTPostContentLeftPadding;
     

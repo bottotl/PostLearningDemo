@@ -19,6 +19,11 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:NO animated:animated];
 }
+-(void)layoutSubviews{
+    [super layoutSubviews];
+    
+    self.postView.frame = self.contentView.bounds;
+}
 
 -(void)configCellWithData:(LTPostModel *)data{
     self.postView.data = data;

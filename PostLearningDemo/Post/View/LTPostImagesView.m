@@ -71,7 +71,6 @@
     } else {
         size.height = [[self class] heightWithSuggestThreePicWidth:size.width andPicCount:self.data.count andBigPic:self.needBig andItemSpace:6 withLimit:self.limit];
     }
-    NSLog(@"%@",[NSValue valueWithCGSize:size]);
     return size;
 }
 

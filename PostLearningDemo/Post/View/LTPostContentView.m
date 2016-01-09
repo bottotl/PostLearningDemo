@@ -41,6 +41,11 @@
     self.content = data.content;
 }
 
+-(CGSize)sizeThatFits:(CGSize)size{
+    [self setContent:self.content];
+    return self.size;
+}
+
 -(void)setContent:(NSAttributedString *)content{
     _content = content;
     CGSize size = CGSizeMake(self.width, CGFLOAT_MAX);

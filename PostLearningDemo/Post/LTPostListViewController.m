@@ -91,6 +91,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     LTPostViewCell *cell = [tableView dequeueReusableCellWithIdentifier:LTPostViewCellIdentifier forIndexPath:indexPath];
     [cell configCellWithData:self.posts[indexPath.row]];
+    [cell setNeedsLayout];
+    [cell layoutIfNeeded];
     return cell;
 }
 
