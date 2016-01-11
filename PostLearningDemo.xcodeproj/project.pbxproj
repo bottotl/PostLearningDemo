@@ -8,17 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		06182231E43CB3B9906CADEF /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE5A0469B6DED544666805B /* Pods.framework */; };
-		B8B17E321C3FA4E200D9EC59 /* LTPostViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E181C3FA4E200D9EC59 /* LTPostViewCell.m */; };
-		B8B17E331C3FA4E200D9EC59 /* LTPostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E1B1C3FA4E200D9EC59 /* LTPostListViewController.m */; };
-		B8B17E341C3FA4E200D9EC59 /* LTPostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E1D1C3FA4E200D9EC59 /* LTPostModel.m */; };
-		B8B17E351C3FA4E200D9EC59 /* LTPostContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E201C3FA4E200D9EC59 /* LTPostContentModel.m */; };
-		B8B17E361C3FA4E200D9EC59 /* LTPostImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E221C3FA4E200D9EC59 /* LTPostImageModel.m */; };
-		B8B17E371C3FA4E200D9EC59 /* LTPostProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E241C3FA4E200D9EC59 /* LTPostProfileModel.m */; };
-		B8B17E381C3FA4E200D9EC59 /* LTPostImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E281C3FA4E200D9EC59 /* LTPostImageCollectionViewCell.m */; };
-		B8B17E391C3FA4E200D9EC59 /* LTPostContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E2A1C3FA4E200D9EC59 /* LTPostContentView.m */; };
-		B8B17E3A1C3FA4E200D9EC59 /* LTPostImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E2C1C3FA4E200D9EC59 /* LTPostImagesView.m */; };
-		B8B17E3B1C3FA4E200D9EC59 /* LTPostProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E2E1C3FA4E200D9EC59 /* LTPostProfileView.m */; };
-		B8B17E3C1C3FA4E200D9EC59 /* LTPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B17E301C3FA4E200D9EC59 /* LTPostView.m */; };
 		B8D4A2FE1C34EA130067D079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D4A2FD1C34EA130067D079 /* main.m */; };
 		B8D4A3011C34EA130067D079 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D4A3001C34EA130067D079 /* AppDelegate.m */; };
 		B8D4A3071C34EA130067D079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D4A3051C34EA130067D079 /* Main.storyboard */; };
@@ -60,33 +49,30 @@
 		B8D4A3861C34EC0E0067D079 /* YYSimpleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D4A3781C34EC0E0067D079 /* YYSimpleWebViewController.m */; };
 		B8D4A3871C34EC0E0067D079 /* YYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D4A37A1C34EC0E0067D079 /* YYTableView.m */; };
 		B8D4A3881C34EC0E0067D079 /* YYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D4A37C1C34EC0E0067D079 /* YYTableViewCell.m */; };
+		B8E9930A1C43909900A45A19 /* LTPostViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E992F31C43909900A45A19 /* LTPostViewCell.m */; };
+		B8E9930B1C43909900A45A19 /* LTPostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E992F51C43909900A45A19 /* LTPostListViewController.m */; };
+		B8E9930C1C43909900A45A19 /* LTPostCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E992F81C43909900A45A19 /* LTPostCommentCell.m */; };
+		B8E9930D1C43909900A45A19 /* LTPostCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E992FA1C43909900A45A19 /* LTPostCommentView.m */; };
+		B8E9930E1C43909900A45A19 /* LTPostContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E992FC1C43909900A45A19 /* LTPostContentView.m */; };
+		B8E9930F1C43909900A45A19 /* LTPostImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E992FE1C43909900A45A19 /* LTPostImageCollectionViewCell.m */; };
+		B8E993101C43909900A45A19 /* LTPostImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993001C43909900A45A19 /* LTPostImagesView.m */; };
+		B8E993111C43909900A45A19 /* LTPostLikedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993021C43909900A45A19 /* LTPostLikedView.m */; };
+		B8E993121C43909900A45A19 /* LTPostProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993041C43909900A45A19 /* LTPostProfileView.m */; };
+		B8E993131C43909900A45A19 /* LTPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993061C43909900A45A19 /* LTPostView.m */; };
+		B8E993141C43909900A45A19 /* LTPostViewRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993081C43909900A45A19 /* LTPostViewRoundButton.m */; };
+		B8E993171C4390D000A45A19 /* LTModels.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993161C4390D000A45A19 /* LTModels.m */; };
+		B8E993271C4390D800A45A19 /* LTPostCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E9931A1C4390D800A45A19 /* LTPostCommentModel.m */; };
+		B8E993281C4390D800A45A19 /* LTPostContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E9931C1C4390D800A45A19 /* LTPostContentModel.m */; };
+		B8E993291C4390D800A45A19 /* LTPostImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E9931E1C4390D800A45A19 /* LTPostImageModel.m */; };
+		B8E9932A1C4390D800A45A19 /* LTPostLikedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993201C4390D800A45A19 /* LTPostLikedModel.m */; };
+		B8E9932B1C4390D800A45A19 /* LTPostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993221C4390D800A45A19 /* LTPostModel.m */; };
+		B8E9932C1C4390D800A45A19 /* LTPostProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993241C4390D800A45A19 /* LTPostProfileModel.m */; };
+		B8E9932D1C4390D800A45A19 /* LTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E993261C4390D800A45A19 /* LTUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E41E9F76253D34D4A22903D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5DE5A0469B6DED544666805B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8B17E171C3FA4E200D9EC59 /* LTPostViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostViewCell.h; sourceTree = "<group>"; };
-		B8B17E181C3FA4E200D9EC59 /* LTPostViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostViewCell.m; sourceTree = "<group>"; };
-		B8B17E1A1C3FA4E200D9EC59 /* LTPostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostListViewController.h; sourceTree = "<group>"; };
-		B8B17E1B1C3FA4E200D9EC59 /* LTPostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostListViewController.m; sourceTree = "<group>"; };
-		B8B17E1C1C3FA4E200D9EC59 /* LTPostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostModel.h; sourceTree = "<group>"; };
-		B8B17E1D1C3FA4E200D9EC59 /* LTPostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostModel.m; sourceTree = "<group>"; };
-		B8B17E1F1C3FA4E200D9EC59 /* LTPostContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostContentModel.h; sourceTree = "<group>"; };
-		B8B17E201C3FA4E200D9EC59 /* LTPostContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostContentModel.m; sourceTree = "<group>"; };
-		B8B17E211C3FA4E200D9EC59 /* LTPostImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostImageModel.h; sourceTree = "<group>"; };
-		B8B17E221C3FA4E200D9EC59 /* LTPostImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostImageModel.m; sourceTree = "<group>"; };
-		B8B17E231C3FA4E200D9EC59 /* LTPostProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostProfileModel.h; sourceTree = "<group>"; };
-		B8B17E241C3FA4E200D9EC59 /* LTPostProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostProfileModel.m; sourceTree = "<group>"; };
-		B8B17E271C3FA4E200D9EC59 /* LTPostImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostImageCollectionViewCell.h; sourceTree = "<group>"; };
-		B8B17E281C3FA4E200D9EC59 /* LTPostImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostImageCollectionViewCell.m; sourceTree = "<group>"; };
-		B8B17E291C3FA4E200D9EC59 /* LTPostContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostContentView.h; sourceTree = "<group>"; };
-		B8B17E2A1C3FA4E200D9EC59 /* LTPostContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostContentView.m; sourceTree = "<group>"; };
-		B8B17E2B1C3FA4E200D9EC59 /* LTPostImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostImagesView.h; sourceTree = "<group>"; };
-		B8B17E2C1C3FA4E200D9EC59 /* LTPostImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostImagesView.m; sourceTree = "<group>"; };
-		B8B17E2D1C3FA4E200D9EC59 /* LTPostProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostProfileView.h; sourceTree = "<group>"; };
-		B8B17E2E1C3FA4E200D9EC59 /* LTPostProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostProfileView.m; sourceTree = "<group>"; };
-		B8B17E2F1C3FA4E200D9EC59 /* LTPostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostView.h; sourceTree = "<group>"; };
-		B8B17E301C3FA4E200D9EC59 /* LTPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostView.m; sourceTree = "<group>"; };
 		B8D4A2F91C34EA130067D079 /* PostLearningDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostLearningDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D4A2FD1C34EA130067D079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8D4A2FF1C34EA130067D079 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,6 +139,44 @@
 		B8D4A37A1C34EC0E0067D079 /* YYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableView.m; sourceTree = "<group>"; };
 		B8D4A37B1C34EC0E0067D079 /* YYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableViewCell.h; sourceTree = "<group>"; };
 		B8D4A37C1C34EC0E0067D079 /* YYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableViewCell.m; sourceTree = "<group>"; };
+		B8E992F21C43909900A45A19 /* LTPostViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostViewCell.h; sourceTree = "<group>"; };
+		B8E992F31C43909900A45A19 /* LTPostViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostViewCell.m; sourceTree = "<group>"; };
+		B8E992F41C43909900A45A19 /* LTPostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostListViewController.h; sourceTree = "<group>"; };
+		B8E992F51C43909900A45A19 /* LTPostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostListViewController.m; sourceTree = "<group>"; };
+		B8E992F71C43909900A45A19 /* LTPostCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostCommentCell.h; sourceTree = "<group>"; };
+		B8E992F81C43909900A45A19 /* LTPostCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostCommentCell.m; sourceTree = "<group>"; };
+		B8E992F91C43909900A45A19 /* LTPostCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostCommentView.h; sourceTree = "<group>"; };
+		B8E992FA1C43909900A45A19 /* LTPostCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostCommentView.m; sourceTree = "<group>"; };
+		B8E992FB1C43909900A45A19 /* LTPostContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostContentView.h; sourceTree = "<group>"; };
+		B8E992FC1C43909900A45A19 /* LTPostContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostContentView.m; sourceTree = "<group>"; };
+		B8E992FD1C43909900A45A19 /* LTPostImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostImageCollectionViewCell.h; sourceTree = "<group>"; };
+		B8E992FE1C43909900A45A19 /* LTPostImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostImageCollectionViewCell.m; sourceTree = "<group>"; };
+		B8E992FF1C43909900A45A19 /* LTPostImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostImagesView.h; sourceTree = "<group>"; };
+		B8E993001C43909900A45A19 /* LTPostImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostImagesView.m; sourceTree = "<group>"; };
+		B8E993011C43909900A45A19 /* LTPostLikedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostLikedView.h; sourceTree = "<group>"; };
+		B8E993021C43909900A45A19 /* LTPostLikedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostLikedView.m; sourceTree = "<group>"; };
+		B8E993031C43909900A45A19 /* LTPostProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostProfileView.h; sourceTree = "<group>"; };
+		B8E993041C43909900A45A19 /* LTPostProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostProfileView.m; sourceTree = "<group>"; };
+		B8E993051C43909900A45A19 /* LTPostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostView.h; sourceTree = "<group>"; };
+		B8E993061C43909900A45A19 /* LTPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostView.m; sourceTree = "<group>"; };
+		B8E993071C43909900A45A19 /* LTPostViewRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostViewRoundButton.h; sourceTree = "<group>"; };
+		B8E993081C43909900A45A19 /* LTPostViewRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostViewRoundButton.m; sourceTree = "<group>"; };
+		B8E993151C4390D000A45A19 /* LTModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTModels.h; sourceTree = "<group>"; };
+		B8E993161C4390D000A45A19 /* LTModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTModels.m; sourceTree = "<group>"; };
+		B8E993191C4390D800A45A19 /* LTPostCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostCommentModel.h; sourceTree = "<group>"; };
+		B8E9931A1C4390D800A45A19 /* LTPostCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostCommentModel.m; sourceTree = "<group>"; };
+		B8E9931B1C4390D800A45A19 /* LTPostContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostContentModel.h; sourceTree = "<group>"; };
+		B8E9931C1C4390D800A45A19 /* LTPostContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostContentModel.m; sourceTree = "<group>"; };
+		B8E9931D1C4390D800A45A19 /* LTPostImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostImageModel.h; sourceTree = "<group>"; };
+		B8E9931E1C4390D800A45A19 /* LTPostImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostImageModel.m; sourceTree = "<group>"; };
+		B8E9931F1C4390D800A45A19 /* LTPostLikedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostLikedModel.h; sourceTree = "<group>"; };
+		B8E993201C4390D800A45A19 /* LTPostLikedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostLikedModel.m; sourceTree = "<group>"; };
+		B8E993211C4390D800A45A19 /* LTPostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostModel.h; sourceTree = "<group>"; };
+		B8E993221C4390D800A45A19 /* LTPostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostModel.m; sourceTree = "<group>"; };
+		B8E993231C4390D800A45A19 /* LTPostProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPostProfileModel.h; sourceTree = "<group>"; };
+		B8E993241C4390D800A45A19 /* LTPostProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPostProfileModel.m; sourceTree = "<group>"; };
+		B8E993251C4390D800A45A19 /* LTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTUser.h; sourceTree = "<group>"; };
+		B8E993261C4390D800A45A19 /* LTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTUser.m; sourceTree = "<group>"; };
 		F55DE811ACDA233B59487E2A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,83 +211,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B8B17E151C3FA4E200D9EC59 /* Post */ = {
-			isa = PBXGroup;
-			children = (
-				B8B17E161C3FA4E200D9EC59 /* Cell */,
-				B8B17E191C3FA4E200D9EC59 /* Layout */,
-				B8B17E1A1C3FA4E200D9EC59 /* LTPostListViewController.h */,
-				B8B17E1B1C3FA4E200D9EC59 /* LTPostListViewController.m */,
-				B8B17E1C1C3FA4E200D9EC59 /* LTPostModel.h */,
-				B8B17E1D1C3FA4E200D9EC59 /* LTPostModel.m */,
-				B8B17E1E1C3FA4E200D9EC59 /* model */,
-				B8B17E251C3FA4E200D9EC59 /* View */,
-			);
-			path = Post;
-			sourceTree = "<group>";
-		};
-		B8B17E161C3FA4E200D9EC59 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				B8B17E171C3FA4E200D9EC59 /* LTPostViewCell.h */,
-				B8B17E181C3FA4E200D9EC59 /* LTPostViewCell.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		B8B17E191C3FA4E200D9EC59 /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Layout;
-			sourceTree = "<group>";
-		};
-		B8B17E1E1C3FA4E200D9EC59 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				B8B17E1F1C3FA4E200D9EC59 /* LTPostContentModel.h */,
-				B8B17E201C3FA4E200D9EC59 /* LTPostContentModel.m */,
-				B8B17E211C3FA4E200D9EC59 /* LTPostImageModel.h */,
-				B8B17E221C3FA4E200D9EC59 /* LTPostImageModel.m */,
-				B8B17E231C3FA4E200D9EC59 /* LTPostProfileModel.h */,
-				B8B17E241C3FA4E200D9EC59 /* LTPostProfileModel.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		B8B17E251C3FA4E200D9EC59 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B8B17E261C3FA4E200D9EC59 /* CollectionCel */,
-				B8B17E291C3FA4E200D9EC59 /* LTPostContentView.h */,
-				B8B17E2A1C3FA4E200D9EC59 /* LTPostContentView.m */,
-				B8B17E2B1C3FA4E200D9EC59 /* LTPostImagesView.h */,
-				B8B17E2C1C3FA4E200D9EC59 /* LTPostImagesView.m */,
-				B8B17E2D1C3FA4E200D9EC59 /* LTPostProfileView.h */,
-				B8B17E2E1C3FA4E200D9EC59 /* LTPostProfileView.m */,
-				B8B17E2F1C3FA4E200D9EC59 /* LTPostView.h */,
-				B8B17E301C3FA4E200D9EC59 /* LTPostView.m */,
-				B8B17E311C3FA4E200D9EC59 /* Model */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B8B17E261C3FA4E200D9EC59 /* CollectionCel */ = {
-			isa = PBXGroup;
-			children = (
-				B8B17E271C3FA4E200D9EC59 /* LTPostImageCollectionViewCell.h */,
-				B8B17E281C3FA4E200D9EC59 /* LTPostImageCollectionViewCell.m */,
-			);
-			path = CollectionCel;
-			sourceTree = "<group>";
-		};
-		B8B17E311C3FA4E200D9EC59 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B8D4A2F01C34EA130067D079 = {
 			isa = PBXGroup;
 			children = (
@@ -285,9 +232,12 @@
 		B8D4A2FB1C34EA130067D079 /* PostLearningDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B8B17E151C3FA4E200D9EC59 /* Post */,
+				B8E992F01C43909900A45A19 /* Post */,
 				B8D4A2FF1C34EA130067D079 /* AppDelegate.h */,
 				B8D4A3001C34EA130067D079 /* AppDelegate.m */,
+				B8E993151C4390D000A45A19 /* LTModels.h */,
+				B8E993161C4390D000A45A19 /* LTModels.m */,
+				B8E993181C4390D800A45A19 /* Model */,
 				B8D4A3051C34EA130067D079 /* Main.storyboard */,
 				B8D4A3081C34EA130067D079 /* Assets.xcassets */,
 				B8D4A3641C34EC0E0067D079 /* Util */,
@@ -435,6 +385,80 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		B8E992F01C43909900A45A19 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				B8E992F11C43909900A45A19 /* Cell */,
+				B8E992F41C43909900A45A19 /* LTPostListViewController.h */,
+				B8E992F51C43909900A45A19 /* LTPostListViewController.m */,
+				B8E992F61C43909900A45A19 /* View */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		B8E992F11C43909900A45A19 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B8E992F21C43909900A45A19 /* LTPostViewCell.h */,
+				B8E992F31C43909900A45A19 /* LTPostViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B8E992F61C43909900A45A19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8E992F71C43909900A45A19 /* LTPostCommentCell.h */,
+				B8E992F81C43909900A45A19 /* LTPostCommentCell.m */,
+				B8E992F91C43909900A45A19 /* LTPostCommentView.h */,
+				B8E992FA1C43909900A45A19 /* LTPostCommentView.m */,
+				B8E992FB1C43909900A45A19 /* LTPostContentView.h */,
+				B8E992FC1C43909900A45A19 /* LTPostContentView.m */,
+				B8E992FD1C43909900A45A19 /* LTPostImageCollectionViewCell.h */,
+				B8E992FE1C43909900A45A19 /* LTPostImageCollectionViewCell.m */,
+				B8E992FF1C43909900A45A19 /* LTPostImagesView.h */,
+				B8E993001C43909900A45A19 /* LTPostImagesView.m */,
+				B8E993011C43909900A45A19 /* LTPostLikedView.h */,
+				B8E993021C43909900A45A19 /* LTPostLikedView.m */,
+				B8E993031C43909900A45A19 /* LTPostProfileView.h */,
+				B8E993041C43909900A45A19 /* LTPostProfileView.m */,
+				B8E993051C43909900A45A19 /* LTPostView.h */,
+				B8E993061C43909900A45A19 /* LTPostView.m */,
+				B8E993071C43909900A45A19 /* LTPostViewRoundButton.h */,
+				B8E993081C43909900A45A19 /* LTPostViewRoundButton.m */,
+				B8E993091C43909900A45A19 /* Model */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8E993091C43909900A45A19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8E993181C4390D800A45A19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8E993191C4390D800A45A19 /* LTPostCommentModel.h */,
+				B8E9931A1C4390D800A45A19 /* LTPostCommentModel.m */,
+				B8E9931B1C4390D800A45A19 /* LTPostContentModel.h */,
+				B8E9931C1C4390D800A45A19 /* LTPostContentModel.m */,
+				B8E9931D1C4390D800A45A19 /* LTPostImageModel.h */,
+				B8E9931E1C4390D800A45A19 /* LTPostImageModel.m */,
+				B8E9931F1C4390D800A45A19 /* LTPostLikedModel.h */,
+				B8E993201C4390D800A45A19 /* LTPostLikedModel.m */,
+				B8E993211C4390D800A45A19 /* LTPostModel.h */,
+				B8E993221C4390D800A45A19 /* LTPostModel.m */,
+				B8E993231C4390D800A45A19 /* LTPostProfileModel.h */,
+				B8E993241C4390D800A45A19 /* LTPostProfileModel.m */,
+				B8E993251C4390D800A45A19 /* LTUser.h */,
+				B8E993261C4390D800A45A19 /* LTUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -568,41 +592,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B17E381C3FA4E200D9EC59 /* LTPostImageCollectionViewCell.m in Sources */,
 				B8D4A3831C34EC0E0067D079 /* YYControl.m in Sources */,
-				B8B17E371C3FA4E200D9EC59 /* LTPostProfileModel.m in Sources */,
+				B8E993171C4390D000A45A19 /* LTModels.m in Sources */,
 				B8D4A3521C34EB620067D079 /* WBStatusComposeTextParser.m in Sources */,
 				B8D4A3561C34EB620067D079 /* WBStatusHelper.m in Sources */,
+				B8E993121C43909900A45A19 /* LTPostProfileView.m in Sources */,
 				B8D4A3581C34EB620067D079 /* LTStatusCell.m in Sources */,
-				B8B17E361C3FA4E200D9EC59 /* LTPostImageModel.m in Sources */,
 				B8D4A3531C34EB620067D079 /* WBStatusComposeViewController.m in Sources */,
+				B8E993141C43909900A45A19 /* LTPostViewRoundButton.m in Sources */,
+				B8E9930E1C43909900A45A19 /* LTPostContentView.m in Sources */,
 				B8D4A35D1C34EB620067D079 /* LTStatusToolbarView.m in Sources */,
 				B8D4A3011C34EA130067D079 /* AppDelegate.m in Sources */,
-				B8B17E391C3FA4E200D9EC59 /* LTPostContentView.m in Sources */,
 				B8D4A37F1C34EC0E0067D079 /* UIColor+expanded.m in Sources */,
 				B8D4A3821C34EC0E0067D079 /* UIView+Layout.m in Sources */,
+				B8E9930F1C43909900A45A19 /* LTPostImageCollectionViewCell.m in Sources */,
+				B8E9930C1C43909900A45A19 /* LTPostCommentCell.m in Sources */,
+				B8E993281C4390D800A45A19 /* LTPostContentModel.m in Sources */,
 				B8D4A3871C34EC0E0067D079 /* YYTableView.m in Sources */,
-				B8B17E331C3FA4E200D9EC59 /* LTPostListViewController.m in Sources */,
+				B8E9930B1C43909900A45A19 /* LTPostListViewController.m in Sources */,
 				B8D4A35B1C34EB620067D079 /* LTStatusTimelineViewController.m in Sources */,
 				B8D4A3631C34EB620067D079 /* WBStatusLayout.m in Sources */,
-				B8B17E351C3FA4E200D9EC59 /* LTPostContentModel.m in Sources */,
+				B8E9932B1C4390D800A45A19 /* LTPostModel.m in Sources */,
+				B8E9930D1C43909900A45A19 /* LTPostCommentView.m in Sources */,
+				B8E993271C4390D800A45A19 /* LTPostCommentModel.m in Sources */,
+				B8E993131C43909900A45A19 /* LTPostView.m in Sources */,
 				B8D4A3511C34EB620067D079 /* WBEmoticonInputView.m in Sources */,
-				B8B17E341C3FA4E200D9EC59 /* LTPostModel.m in Sources */,
-				B8B17E321C3FA4E200D9EC59 /* LTPostViewCell.m in Sources */,
+				B8E993291C4390D800A45A19 /* LTPostImageModel.m in Sources */,
+				B8E9930A1C43909900A45A19 /* LTPostViewCell.m in Sources */,
 				B8D4A3851C34EC0E0067D079 /* YYPhotoGroupView.m in Sources */,
 				B8D4A3571C34EB620067D079 /* LTStatusCardView.m in Sources */,
+				B8E9932D1C4390D800A45A19 /* LTUser.m in Sources */,
 				B8D4A3861C34EC0E0067D079 /* YYSimpleWebViewController.m in Sources */,
-				B8B17E3C1C3FA4E200D9EC59 /* LTPostView.m in Sources */,
+				B8E9932A1C4390D800A45A19 /* LTPostLikedModel.m in Sources */,
+				B8E993111C43909900A45A19 /* LTPostLikedView.m in Sources */,
 				B8D4A35A1C34EB620067D079 /* LTStatusTagView.m in Sources */,
 				B8D4A3591C34EB620067D079 /* LTStatusProfileView.m in Sources */,
-				B8B17E3B1C3FA4E200D9EC59 /* LTPostProfileView.m in Sources */,
 				B8D4A3881C34EC0E0067D079 /* YYTableViewCell.m in Sources */,
 				B8D4A3841C34EC0E0067D079 /* YYFPSLabel.m in Sources */,
 				B8D4A3801C34EC0E0067D079 /* UIImage+Common.m in Sources */,
+				B8E9932C1C4390D800A45A19 /* LTPostProfileModel.m in Sources */,
 				B8D4A2FE1C34EA130067D079 /* main.m in Sources */,
 				B8D4A3621C34EB620067D079 /* WBModel.m in Sources */,
 				B8D4A35E1C34EB620067D079 /* LTStatusView.m in Sources */,
-				B8B17E3A1C3FA4E200D9EC59 /* LTPostImagesView.m in Sources */,
+				B8E993101C43909900A45A19 /* LTPostImagesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,14 @@
 
 #import "LTPostModel.h"
 
-//@class LTPostLayout;
+/**
+ *  动态 View 页面
+    主要负责把零碎的其他小页面、按钮组合在一起
+ */
 @interface LTPostView : UIView
 
 @property (nonatomic, strong) LTPostModel *data;
 
 +(CGFloat) viewHeightWithData:(LTPostModel *)data;
-//@property (nonatomic, weak) LTPostLayout *layout;
+
 @end

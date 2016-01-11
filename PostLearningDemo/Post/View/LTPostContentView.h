@@ -10,9 +10,14 @@
 #import "LTPostContentModel.h"
 
 static CGFloat const LTPostContentLabelPadding = 5;
-
+/**
+ *  用户发布的文字内容
+ */
 @interface LTPostContentView : UIView
 
+/**
+ *  数据（包含了内容的富文本）
+ */
 @property (nonatomic, strong) LTPostContentModel *data;
 
 /**

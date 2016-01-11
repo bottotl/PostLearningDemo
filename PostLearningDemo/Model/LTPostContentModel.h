@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *  给 LTPostContentViwe 填充数据用的数据模型
+ */
 @interface LTPostContentModel : NSObject
+
+/**
+ *  内容富文本
+ */
 @property (nonatomic, copy) NSAttributedString *content;
+
 @end

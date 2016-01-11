@@ -45,18 +45,12 @@ static CGFloat const LTPostProfileViewHeight = 60.0;
     [super layoutSubviews];
 }
 
-#pragma mark - property
-#pragma mark - View property
+#pragma mark - Property
+#pragma mark View property
 
 -(YYLabel *)nameLabel{
     if(!_nameLabel){
         _nameLabel = [YYLabel new];
-        //        _nameLabel.displaysAsynchronously = YES;
-        //        _nameLabel.ignoreCommonProperties = YES;
-        //        _nameLabel.fadeOnAsynchronouslyDisplay = NO;
-        //        _nameLabel.fadeOnHighlight = NO;
-        //        _nameLabel.lineBreakMode = NSLineBreakByClipping;
-        //        _nameLabel.textVerticalAlignment = YYTextVerticalAlignmentCenter;
         [self addSubview:_nameLabel];
     }
     return _nameLabel;
@@ -71,7 +65,7 @@ static CGFloat const LTPostProfileViewHeight = 60.0;
     return _avatarView;
 }
 
-#pragma mark - Data property
+#pragma mark  Data property
 -(void)setData:(LTPostProfileModel *)data{
     _data = data;
     [self setAvatatUrlString:data.avatarUrl];
@@ -86,12 +80,24 @@ static CGFloat const LTPostProfileViewHeight = 60.0;
 -(void)setName:(NSString *)name{
     _name = name;
     CGSize size = CGSizeMake(kScreenWidth - 110, 24);
-    YYTextLayout *layout = [YYTextLayout layoutWithContainerSize:size text:[[NSAttributedString alloc]initWithString:name]];
+    
+    NSMutableAttributedString *temp = [[NSMutableAttributedString alloc]initWithString:name];
+    temp.font = [UIFont systemFontOfSize:15];
+    
+    YYTextLayout *layout = [YYTextLayout layoutWithContainerSize:size text:temp];
     self.nameLabel.size = layout.textBoundingSize;
     self.nameLabel.textLayout = layout;
 }
 
-#pragma mark -
+-(void)setAvatarTapBlock:(LTAvatarTapBlock)avatarTapBlock{
+    if (!avatarTapBlock) {
+        return;
+    }
+    _avatarView.gestureRecognizers = nil;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithActionBlock:avatarTapBlock];
+    [_avatarView addGestureRecognizer:tap];
+}
+#pragma mark - 高度计算
 +(CGFloat)viewHeight{
     return LTPostProfileViewHeight;
 }

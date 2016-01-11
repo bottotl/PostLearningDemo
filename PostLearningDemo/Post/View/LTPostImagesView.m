@@ -29,6 +29,9 @@
     }
     return self;
 }
+/**
+ *  初始化 Collection View
+ */
 - (void)p_initial{
     _layout = [UICollectionViewFlowLayout new];
     _collectionView  = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:_layout];
@@ -40,6 +43,7 @@
     [self addSubview:_collectionView];
     
 }
+#pragma mark - layout
 - (void)layoutSubviews{
     [super layoutSubviews];
     NSInteger count = MIN(self.data.count, self.limit);
@@ -57,7 +61,7 @@
     self.collectionView.frame = self.bounds;
     
 }
-
+#pragma mark - sizeToFit
 - (CGSize)sizeThatFits:(CGSize)size{
     if (size.width == 0) return size;
     NSInteger count = MIN(self.data.count, self.limit);
@@ -90,10 +94,10 @@
     LTPostImageCollectionViewCell *cell = (LTPostImageCollectionViewCell  *)[collectionView dequeueReusableCellWithReuseIdentifier:LTPostImageCollectionCellIdentifier forIndexPath:indexPath];
     LTPostImageModel *pic = self.data[indexPath.row];
     [cell configCellWithImageUrl:pic.smallUrlString];
-    if (self.limit < self.data.count && indexPath.row == self.limit - 1) {
-        cell.numberLabel.hidden = NO;
-        cell.numberLabel.text = [@(self.data.count) stringValue];
-    }
+//    if (self.limit < self.data.count && indexPath.row == self.limit - 1) {
+//        cell.numberLabel.hidden = NO;
+//        cell.numberLabel.text = [@(self.data.count) stringValue];
+//    }
     return cell;
 }
 

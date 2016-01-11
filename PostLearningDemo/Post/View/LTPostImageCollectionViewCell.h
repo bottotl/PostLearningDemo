@@ -9,13 +9,18 @@
 #import <UIKit/UIKit.h>
 
 static NSString *const LTPostImageCollectionCellIdentifier = @"LTPostImageCollectionViewCell";
-
+/**
+ *  包含了一个 ImageView 的 UICollectionViewCell ，用于多图展示控件 < LTPostImagesView > 
+    表示了一张图片
+ */
 @interface LTPostImageCollectionViewCell : UICollectionViewCell
 
-@property(nonatomic, strong)  UIImageView *imageView;
-@property(nonatomic, strong)  UILabel     *numberLabel;
-@property(nonatomic, strong)  UIView      *numberView;
 
+/**
+ *  为图片设置 Url
+ *
+ *  @param url 图片的 Url
+ */
 -(void)configCellWithImageUrl:(NSString *)url;
 
 @end

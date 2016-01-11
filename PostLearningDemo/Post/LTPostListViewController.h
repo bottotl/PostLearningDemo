@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  展示 Post 用的 ViewController
+ */
 @interface LTPostListViewController : UIViewController
 
 @end

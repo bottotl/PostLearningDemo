@@ -10,12 +10,21 @@
 #import "UIImageView+WebCache.h"
 #import "UIView+Layout.h"
 
+@interface LTPostImageCollectionViewCell ()
+
+@property(nonatomic, strong)  UIImageView *imageView;
+@property(nonatomic, strong)  UILabel     *numberLabel;
+@property(nonatomic, strong)  UIView      *numberView;
+
+@end
+
 @implementation LTPostImageCollectionViewCell
 
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         [self initialize];
         self.imageView.contentMode = UIViewContentModeScaleAspectFill;
+        self.numberLabel.hidden = YES;
     }
     return self;
 }

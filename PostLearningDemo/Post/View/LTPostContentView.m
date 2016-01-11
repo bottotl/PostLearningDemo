@@ -24,6 +24,13 @@
     [super layoutSubviews];
 }
 
+#pragma mark - sizeToFit
+-(CGSize)sizeThatFits:(CGSize)size{
+    [self setContent:self.content];
+    return self.contentLabel.size;
+}
+
+
 #pragma mark - property
 
 #pragma mark View
@@ -36,14 +43,8 @@
 }
 
 #pragma mark Data
-
 -(void)setData:(LTPostContentModel *)data{
     self.content = data.content;
-}
-
--(CGSize)sizeThatFits:(CGSize)size{
-    [self setContent:self.content];
-    return self.size;
 }
 
 -(void)setContent:(NSAttributedString *)content{
@@ -52,7 +53,6 @@
     YYTextLayout *layout = [YYTextLayout layoutWithContainerSize:size text:content];
     self.contentLabel.size = layout.textBoundingSize;
     self.contentLabel.textLayout = layout;
-    self.size = self.contentLabel.size;
 }
 
 #pragma mark - 高度计算
